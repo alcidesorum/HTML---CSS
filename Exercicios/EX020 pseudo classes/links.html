@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pesonalizando links</title>
+    <style>
+        body{font-family: Arial, Helvetica, sans-serif;}
+
+        a{color: rgb(165, 66, 66); text-decoration: none;font-weight: bold;}
+
+        a:visited{color: rgb(255, 0, 0);}
+
+        a:hover{ text-decoration: underline; color: black;}
+
+        a:active{color: blue;}
+
+        .pica::after{content:'link';font-weight: lighter;color: bisque;}
+
+        .pica{font-weight: bolder; font-size: larger;}
+
+
+        
+        /* Seletores personalizados
+        id = #
+        class = .
+        pseudo-class = :
+        pseudo-element = ::
+        > = filho children 
+        */
+
+
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+        <li><a href="http:facebok.com" target="_blank" class="pica">Facebook safado</a></li>
+        <li><a href="http:Instagram.com" target="_blank">Instagram</a></li>
+        <li><a href="http:x.com" target="_blank">Twiter</a></li>
+        
+    </ul>
+    
+</body>
+</html>

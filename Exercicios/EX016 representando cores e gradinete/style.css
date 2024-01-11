@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+
+* { /*height: auto; /* o guanabara tambem travou aqui */
+    font-family: sans-serif
+}
+
+body{background-image: linear-gradient(90deg, #D9C6BF,#A69992);}
+
+p{ text-align: justify;}
+
+main{background-color: #68524a79; /*cor da caixa*/
+    border-radius: 10px; /*bordinha da caixa*/
+    box-shadow: 50px 30px 80px rgba(38, 22, 16, 0.689) ; /*sombrinha da caixa*/
+    width: 300px; /*largura da caixa*/
+    padding: 20px; /*distancia da caixa*/
+    margin: auto; 
+}
+
+h1{color: #ffffff;
+text-align: center;
+text-shadow: 1px 0px 2px #4e4845b6;}
+
+h2{color: #A69992;
+text-align: center;}

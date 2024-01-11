@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em html</title>
+</head>
+<body>
+    <h1>Imagem dinamica </h1>
+    <p>imagem que se adapta ao tamanho do display</p>
+     <picture>
+        <source media="(max-width:500px )" srcset="imagens/P.jpg" type="image/jpg">
+        <source media="(max-width: 800px)" srcset="imagens/M.jpg" type="image/jpg">
+        <source media="(max-width: 801 )" srcset="imagens/G.jpg" type="image/jpg">
+        <img src="imagens/G.jpg" alt="imagem grandona">
+     </picture>
+     <p>assim a imagem se adapta ao display do usuario </p>
+     <p>isso afeta na experiencia do usuario UX safado! </p>
+     <h1>e vamos de Audios</h1>
+     <p>forma simples </p>
+     <p>ta aqui mas ta em comentario safado</p>
+     <!--<audio src="media/4422.mp3" controls ></audio>
+      compatibilidade MP3 ou WAV e o OGG que é open source, se não funcionar tem outras maneiras-->
+      <p>forma completa euy acho</p>
+      <p>ue cade</p>
+      <audio preload="metadata"controls>
+        <source src="media/4422.mp3" type="audio/mpeg">
+      </audio>
+      <h1>Agora vamos para VIDEOS a midia mais popular que tem</h1>
+      <p>e cuidado com o tamanho viu safado, ficar colocando video logno voce <bdo dir="rtl">toma no popo</bdo> </p>
+      <p>formatos compativeis MP4 M4V WEBm(sofrivel) e outro la</p>
+
+    
+</body>
+</html>

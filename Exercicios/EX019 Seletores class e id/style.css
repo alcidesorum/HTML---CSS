@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(225, 222, 219);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* como dividir cada h1 e colocar configurações diferentes neles */
+h1{
+    color: rgb(41, 35, 235);
+}
+h2{
+    color: rgb(37, 37, 37);
+}
+#pinto{text-align: center;
+color: black;
+font-size: 4em;
+background-color:rgb(41, 35, 235);}
+/* essa é a tag "especial" */
+
+.basico{color: rgb(0, 0, 255);font-weight: normal;} 
+.medio{color: rgb(0, 0, 139);font-weight: normal;}
+.brabo{color: rgb(0, 0, 68);font-weight: lighter;}
+
+.destaque{background-color: rgb(29, 29, 66);color: aliceblue;}
