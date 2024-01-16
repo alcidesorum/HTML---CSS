@@ -36,7 +36,7 @@ header h1{
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte2);
-    font-size: vw;
+    font-size: 4vw;
     /* o  font-seze + VW é usado para aumentar e diminuir a fonte
     conforme  largura da tela, o prof diz que é melhor o media query mas veremos no futuro */
 }
