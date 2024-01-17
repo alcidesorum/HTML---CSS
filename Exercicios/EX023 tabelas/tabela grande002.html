@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas grandes</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+
+        
+    }
+
+    table{
+        width: 500px;
+        border-collapse: collapse;
+
+    }
+    caption{
+        font-size: 1.5em;
+        color: rgba(0, 0, 0, 0.267);
+        padding: 10px;
+    }
+    thead, tfoot{
+        border: 1.2px solid grey;
+        background-color: rgba(128, 128, 128, 0.322);
+        padding: 10px;
+        font-size: large;
+    }
+
+    tbody tr:nth-child(odd){
+        background-color: rgb(206, 206, 206);
+    }
+    tbody tr:nth-child(even){
+        background-color: rgb(255, 255, 255);
+    }
+    td, th{
+        border: 1px solid gray;
+        padding: 10px;
+        
+
+    }
+
+    td.num{
+        text-align: right;
+    }
+</style>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!-- ANATOMIA PARA TABELAS GRANDES -->
+<!-- tem que nomear qual é a 
+    CAPTION = legenda da tabela 
+    THEAD = cabeça da tabela
+    TBODY = corpo da tabela
+    TFOOT = rodapé da tabela  -->
+
+    <table>
+        <caption>População do brasil</caption>
+         
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São paulo</td>
+                <td class="num">45 00 00 00</td>
+            </tr>
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">20 00 00 00</td>
+            </tr>
+            <tr>
+                <td>Rio de janeiro</td>
+                <td class="num">15 00 00 00</td>
+            </tr>
+            <tr>
+                <td>São paulo</td>
+                <td class="num">45 00 00 00</td>
+            </tr>
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">20 00 00 00</td>
+            </tr>
+            <tr>
+                <td>Rio de janeiro</td>
+                <td class="num">15 00 00 00</td>
+            </tr>
+            <tr>
+                <td>São paulo</td>
+                <td class="num">45 00 00 00</td>
+            </tr>
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">20 00 00 00</td>
+            </tr>
+            <tr>
+                <td>Rio de janeiro</td>
+                <td class="num">15 00 00 00</td>
+            </tr>
+            <tr>
+                <td>São paulo</td>
+                <td class="num">45 00 00 00</td>
+            </tr>
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">20 00 00 00</td>
+            </tr>
+            <tr>
+                <td>Rio de janeiro</td>
+                <td class="num">15 00 00 00</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+
+            <tr>
+                <th scope="row">Total de habitantes</th>
+                <strong>
+                    <td class="num">0000000x</td>
+                </strong>
+            </tr>
+
+        </tfoot>
+
+
+
+
+
+
+
+    </table>
+
+
+</body>
+</html>
